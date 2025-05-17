@@ -1,0 +1,48 @@
+## Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+## Ignore build results
+bin/
+obj/
+
+## Ignore Rider project files
+.idea/
+
+## Ignore packages
+packages/
+*.nupkg
+
+## Ignore other
+*.log
+*.DS_Store
+*.orig
+
+# Auto-generated files
+*.g.*
+*.i.*
+
+# Debug/Release config files
+*.dbmdl
+*.pdb
+
+# Publish artifacts
+publish/
+
+# WPF specific
+Generated_Code/
+
+# Optional for NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# User-specific files
+*.user
+*.rsuser
+*.sln.docstates
